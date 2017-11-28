@@ -1,0 +1,104 @@
+#########################################
+#
+# KSHUX .ALIASES FILE
+#
+#########################################
+
+#####################
+# Laravel / PHPUNIT / COMPOSER
+#####################
+alias p="phpunit"
+alias pf="phpunit --filter "
+alias art="php artisan"
+alias migrate="php artisan migrate"
+alias cu='composer update'
+alias ci='composer install'
+alias cda='composer dump-autoload -o'
+
+#####################
+# NPM / YARN / NODE
+#####################
+alias yi="yarn init"
+alias y='yarn'
+alias yr='yarn run'
+alias ya="yarn add"
+alias yad="yarn add --dev"
+alias ni="npm init"
+alias nw="npm run watch"
+alias ni="npm install --save"
+alias nid="npm install --save-dev"
+
+#####################
+# GIT
+#####################
+alias nah="git reset --hard"
+alias gs="git status"
+alias ga="git add"
+alias gpm="git push origin master"
+alias gpd="git push origin develop"
+alias gc="git checkout"
+alias gcn="git checkout -b"
+
+#####################
+# GITFLOW
+#####################
+alias feature-start="git flow feature start"
+alias feature-finish="git flow feature finish"
+alias feature-publish="git flow feature publish"
+alias feature-pull="git flow feature pull"
+alias feature-track="git flow feature track"
+alias release-start="git flow release start"
+alias release-publish="git flow release publish"
+alias release-track="git flow release track"
+alias release-finish="git flow release finish && git push --tags"
+alias hotfix-start="git flow hotfix start"
+alias hotfix-finish="git flow hotfix finish"
+
+#####################
+# APPLICATIONS
+#####################
+alias teamviewer="open -a TeamViewer.app"
+alias database="open -a Sequel\ Pro.app"
+alias medis="open -a Medis.app"
+alias postman="open -a Postman.app"
+
+#####################
+# FOLDER CONTROL
+#####################
+alias ..='cd ..'
+alias ...='cd ../../../'
+alias ....='cd ../../../../'
+alias .....='cd ../../../../'
+alias .4='cd ../../../../'
+alias .5='cd ../../../../..'
+
+#####################
+# GREP
+#####################
+alias grep="grep --color=auto"
+alias egrep="egrep --color=auto"
+alias fgrep="fgrep --color=auto"
+
+#####################
+# VIM
+#####################
+alias vi=vim
+alias svi="sudo vi"
+alias vis='vim "+set si"'
+alias edit="vim"
+
+#####################
+# MISC
+#####################
+alias record="asciinema rec"
+alias watch="npm run watch"
+alias edithosts="sudo vim /etc/hosts"
+alias c="clear"
+alias ax="chmod a+x"
+alias zshrc="vim ~/.zshrc"
+alias aliases="vim ~/.aliases"
+alias servers="vim ~/.servers"
+alias src="source ~/.zshrc"
+alias cpwd="pwd|tr -d '\n'|pbcopy"
+alias cpssh="cat ~/.ssh/id_rsa.pub"
+alias h="history"
